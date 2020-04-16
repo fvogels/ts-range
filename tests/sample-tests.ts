@@ -1,10 +1,10 @@
 /* tslint:disable */
 
 import { expect } from 'chai';
+import { sample } from '@/sample';
 
-
-describe('Sample test', () => {
-    it('should have duration 1', () => {
-        expect(true).to.be.equal(true);
+describe('sample', () => {
+    it('should return greeting', () => {
+        expect(sample()).to.be.equal("Hello world");
     });
 });
