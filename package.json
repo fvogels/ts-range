@@ -1,6 +1,6 @@
 {
   "name": "@woumpousse/range",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "range function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "linter": "tslint -c tslint.json src/**/*.ts src/**/*.tsx",
     "build": "npm run clean && tsc",
     "prepare": "npm run build",
-    "clean": "rimraf build"
+    "clean": "rimraf dist"
   },
   "keywords": [],
   "author": "Frederic Vogels",
