@@ -1,7 +1,7 @@
 {
-  "name": "@woumpousse/TODO",
+  "name": "@woumpousse/range",
   "version": "0.1.0",
-  "description": "TODO",
+  "description": "range function",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run linter && mocha -r ts-node/register -r tsconfig-paths/register tests/**/*.ts",
@@ -27,6 +27,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/fvogels/ts-range.git"
   }
 }
